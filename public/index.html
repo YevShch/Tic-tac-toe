@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="register.html">Register new player</a>
+      <a href="showUsers.html">Show users</a>
+      <a href="scoreboard.html">Scoreboard</a>
+      <span>Home</span>
+    </nav>
+  </header>
+  <main>
+<h1>Wellcome to game page!</h1>
+
+<section class="currentPlayer">
+ <h2><span>Now is going: <span id="curPlyr">X</span></span></h2>
+</section>
+
+
+<section class="content">
+
+  <section id="playerSelect">
+    <select name="player1" id="player1">
+      <option value="0" selected disabled>Select Player 1</option>
+    </select>
+    <input type="submit" value ="Confirm">
+    <select name="player2" id="player2">
+      <option value="0" selected disabled>Select Player 2</option>
+    </select>
+    <input type="submit" value="Confirm">
+  </section>
+
+  <!-- <section class="currentPlayer">
+    <span>Now is going: <span id="curPlyr">X</span></span>
+  </section> -->
+
+
+  <section id="area"></section>
+
+  <div class="stat">
+    <table>
+      <th colspan="2">Statistics</th>
+      <tr>
+        <td>Player1</td>
+        <td><span id="sX">0</span></td>
+      </tr>
+      <tr>
+        <td>Player2</td>
+        <td><span id="sO">0</span></td>
+      </tr>
+      <tr>
+        <td>Draw</td>
+        <td><span id="sD">0</span></td>
+      </tr>
+      <tr>
+        <td>Rounds</td>
+        <td><span id="sR">0</span></td>
+      </tr>
+    </table>
+  </div>
+
+
+ 
+  </main>
+  <script src="./main.js" type="module"></script>
+</body>
+</html>
