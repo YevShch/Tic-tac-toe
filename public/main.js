@@ -1,73 +1,7 @@
-// const playerArray = [ 'Bosse', 'Karina', 'Kalle', 'John', 'Eva' ];
-
-// const span = document.createElement( 'span' )
-// span.setAttribute( 'text', 'id' );
-// text.innerText = "Player " + id
-
-// const form = document.createElement( 'form' );
-// form.setAttribute( 'id', 'playerForm' );
-
-
-// const select = document.createElement( 'select' );
-// select.setAttribute( 'id', 'playerSelect' );
-// select.setAttribute( 'name', 'player' );
-
-// playerArray.forEach( player => {
-//   const option = document.createElement( 'option' );
-//   option.value = player.toLowerCase();
-//   option.textContent = player;
-//   select.appendChild( option );
-// } );
-
-// const submitBtn = document.createElement( 'input' );
-// submitBtn.setAttribute( 'type', 'submit' );
-// submitBtn.value = 'Confirm selection';
-
-// form.appendChild( select );
-// form.appendChild( submitBtn );
-
-// document.body.appendChild( form );
-
-// form.addEventListener( 'submit', function ( event ) {
-//   event.preventDefault();
-//   console.dir( select )
-//   console.log( select.selectedIndex );
-//   const selectedPlayer = select.options[ select.selectedIndex ].value;
-//   alert( 'You have selected: ' + selectedPlayer );
-// } );
-
- 
 
 const area = document.getElementById( 'area' );
 const cell = document.getElementsByClassName( 'cell' );
 const currentPlayer = document.getElementById( 'curPlyr' );
-
-// const playerSelect = document.getElementById( 'playerSelect' );
-// select.getAttributeById( 'id', 'player1' );
-// select.getElementById( 'name', 'player1' );
-
-// const playerArray = [ 'Bosse', 'Karina', 'Kalle', 'John', 'Eva' ];
-
-// const submitBtn = document.getElementById( 'input' );
-// submitBtn.getAttribute( 'type', 'submit' );
-// submitBtn.value = 'Confirm';
-
-// playersArray.forEach( player1 => {
-//   const option = document.getElementById( 'option' );
-//   option.value = player.toLowerCase();
-//   option.textContent = player1;
-//   select.appendChild( option );
-// } );
-
-// form.addEventListener( 'submit', function ( event ) {
-//   event.preventDefault();
-//   console.dir( select )
-//   console.log( select.selectedIndex );
-//   const selectedPlayer = select.options[ select.selectedIndex ].value;
-//   alert( 'You have selected: ' + selectedPlayer );
-// } );
-
-
 
 let player = "x";
 let statTable = {
@@ -128,14 +62,16 @@ function cellClick () {
       restart( "Draw" );
     }
   }
-  if ( data.length > 3 ) {
-    cell[ data[ 0 ] - 1 ].innerHTML = '';
-    console.log( data );
-    data.shift();
-    console.log( data );
-    alert( "4 steps!" )
-    rounds += 1;
- }
+  // if ( data.length > 3 ) {
+  //   cell[ data[ 0 ] - 1 ].innerHTML = '';
+  //   console.log( data );
+  //   data.shift();
+  //   console.log( data );
+  //   alert( "4 steps!" )
+  //   rounds += 1;
+  //  }
+
+
   player = player == "x" ? "o" : "x";
   currentPlayer.innerHTML = player.toUpperCase();
   console.log( data );
