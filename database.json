@@ -1,0 +1,957 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Eva",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "lost"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Eva",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "undefined",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "undefined",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "4",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "4",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Eva",
+      "matchHistory": [
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "4",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Lena",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "4",
+          "result": "lost"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Eva",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "0",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "5",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Peter",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Helena",
+      "matchHistory": [
+        {
+          "opponent": "Dennis",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Lena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "4",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ola",
+      "matchHistory": [
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Kolin",
+          "rounds": "3",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Lena",
+          "rounds": "0",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Lena",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kolin",
+      "matchHistory": [
+        {
+          "opponent": "Ola",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "3",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "lost"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "3",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Unika",
+      "matchHistory": [
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Dennis",
+      "matchHistory": [
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "4",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lena",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "0",
+          "result": "0"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Olena",
+      "matchHistory": [
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Ola",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Olena",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Peter",
+      "matchHistory": [
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "John",
+      "matchHistory": []
+    },
+    {
+      "id": 15,
+      "name": "Linus",
+      "matchHistory": []
+    }
+  ]
+}

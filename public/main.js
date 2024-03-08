@@ -1,111 +1,41 @@
+import { selectPlayers } from "./functions/selectPlayers.js";
 
-const area = document.getElementById( 'area' );
-const cell = document.getElementsByClassName( 'cell' );
-const currentPlayer = document.getElementById( 'curPlyr' );
+const button = document.createElement( "button" );
+button.id = "start";
+button.textContent = "START";
 
-let player = "x";
-let statTable = {
-  'x': 0,
-  'o': 0,
-  'd': 0
-}
-let winIndex = [
-  [ 1, 2, 3 ],
-  [ 4, 5, 6 ],
-  [ 7, 8, 9 ],
-  [ 1, 4, 7 ],
-  [ 2, 5, 8 ],
-  [ 3, 6, 9 ],
-  [ 1, 5, 9 ],
-  [ 3, 5, 7 ]
-];
-let rounds = 0;
+document.body.appendChild( button );
 
+const headGameName = document.createElement( 'h1' );
+headGameName.id = "headGameName";
+headGameName.textContent = "TIC TAC TOE";
 
+ document.body.appendChild( headGameName );
 
-for ( let i = 1; i <= 9; i++ ) {
-  area.innerHTML += "<div class='cell' id=" + i + "></div>";
+function hideButton () {
+  const startBtn = document.getElementById( 'start' );
+  startBtn.style.visibility = 'hidden'; // or use startBtn.style.display = 'none';
 }
 
-for ( let i = 0; i < cell.length; i++ ) {
-  cell[ i ].addEventListener( 'click', cellClick, false );
+function hideTicTacToe () {
+  const headGameName = document.getElementById( 'headGameName' )
+  headGameName.style.visibility = 'hidden';
 }
 
-function cellClick () {
+const startBtn1 = document.getElementById( 'start' );
+startBtn1.addEventListener( 'click', () => {
+  hideButton();
+  hideTicTacToe();
+  selectPlayers();
+} );
 
-  const data = [];
+const animationElement = document.getElementById( "headGameName");
 
-  if ( !this.innerHTML ) {
-    this.innerHTML = player;
-  } else {
-    alert( "Cell is occupied" );
-    return;
-  }
+// Set a timer for animation
+setTimeout( () => {
+  animationElement.style.opacity = 1; // Появление
+}, 1000 ); // After 1 second
 
-
-  for ( let i in cell ) {
-    if ( cell[ i ].innerHTML == player ) {
-      data.push( parseInt( cell[ i ].getAttribute( 'id' ) ) );
-    }
-  }
-
-  if ( checkWin( data ) ) {
-    statTable[ player ] += 1;
-    restart( "Has won: " + player );
-  } else {
-    let draw = true;
-    for ( var i in cell ) {
-      if ( cell[ i ].innerHTML == '' ) draw = false;
-    }
-    if ( draw ) {
-      statTable.d += 1;
-      restart( "Draw" );
-    }
-  }
-  // if ( data.length > 3 ) {
-  //   cell[ data[ 0 ] - 1 ].innerHTML = '';
-  //   console.log( data );
-  //   data.shift();
-  //   console.log( data );
-  //   alert( "4 steps!" )
-  //   rounds += 1;
-  //  }
-
-
-  player = player == "x" ? "o" : "x";
-  currentPlayer.innerHTML = player.toUpperCase();
-  console.log( data );
-}
-
-function checkWin ( data ) {
-  for ( let i in winIndex ) {
-    let win = true;
-    for ( let j in winIndex[ i ] ) {
-      let id = winIndex[ i ][ j ];
-      let ind = data.indexOf( id );
-
-      if ( ind == -1 ) {
-        win = false
-      }
-    }
-
-    if ( win ) return true;
-  }
-  return false;
-}
-
-function restart ( text ) {
-
-  alert( text );
-  for ( let i = 0; i < cell.length; i++ ) {
-    cell[ i ].innerHTML = '';
-  }
-  updateStat();
-}
-
-function updateStat () {
-  document.getElementById( 'sX' ).innerHTML = statTable.x;
-  document.getElementById( 'sO' ).innerHTML = statTable.o;
-  document.getElementById( 'sD' ).innerHTML = statTable.d;
-  document.getElementById( 'sR' ).innerHTML = statTable.r;
-}
+setTimeout( () => {
+  animationElement.style.opacity = 0; // Исчезание
+}, 3000 ); // After 3 seconds
