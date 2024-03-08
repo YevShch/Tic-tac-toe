@@ -204,6 +204,16 @@
           "opponent": "Dennis",
           "rounds": "4",
           "result": "lost"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "2",
+          "result": "lost"
         }
       ]
     },
@@ -330,6 +340,16 @@
           "opponent": "Ola",
           "rounds": "1",
           "result": "lost"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Unika",
+          "rounds": "1",
+          "result": "won"
         }
       ]
     },
@@ -542,6 +562,11 @@
           "opponent": "Eva",
           "rounds": "4",
           "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
         },
         {
           "opponent": "Eva",
@@ -810,6 +835,21 @@
           "opponent": "Eva",
           "rounds": "2",
           "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
         }
       ]
     },
@@ -892,6 +932,11 @@
           "opponent": "Ola",
           "rounds": "1",
           "result": "lost"
+        },
+        {
+          "opponent": "John",
+          "rounds": "2",
+          "result": "lost"
         }
       ]
     },
@@ -946,7 +991,13 @@
     {
       "id": 14,
       "name": "John",
-      "matchHistory": []
+      "matchHistory": [
+        {
+          "opponent": "Lena",
+          "rounds": "2",
+          "result": "lost"
+        }
+      ]
     },
     {
       "id": 15,
