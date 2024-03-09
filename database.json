@@ -994,6 +994,11 @@
           "opponent": "Eva",
           "rounds": "1",
           "result": "won"
+        },
+        {
+          "opponent": "Peter",
+          "rounds": "1",
+          "result": "won"
         }
       ]
     },
@@ -1005,6 +1010,26 @@
           "opponent": "Eva",
           "rounds": "1",
           "result": "won"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "John",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "lost"
         }
       ]
     },
@@ -1016,13 +1041,69 @@
           "opponent": "Lena",
           "rounds": "2",
           "result": "lost"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Peter",
+          "rounds": "1",
+          "result": "lost"
         }
       ]
     },
     {
       "id": 15,
       "name": "Linus",
-      "matchHistory": []
+      "matchHistory": [
+        {
+          "opponent": "John",
+          "rounds": "2",
+          "result": "lost"
+        },
+        {
+          "opponent": "John",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "John",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "John",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Peter",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Peter",
+          "rounds": "1",
+          "result": "lost"
+        }
+      ]
     }
   ]
 }

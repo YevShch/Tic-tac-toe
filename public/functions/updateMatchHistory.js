@@ -7,13 +7,13 @@ export async function updateMatchHistory () {
   const getValue1 = getPlayer1Id.value; 
   const id1 = getValue1;
   const user1 = await getOneUser( id1 )
-  console.log( "id1 на отправку " +  id1);
+  console.log( "id1 to send " +  id1);
 
   const getPlayer2Id = document.getElementById( "player2Select" ); //grab the element containing the id of player number 2
   const getValue2 = getPlayer2Id.value;
   const id2 = getValue2;
   const user2 = await getOneUser( id2 )
-  console.log("id2 на отправку " + id2 );
+  console.log("id2 to send " + id2 );
 
   let user1Opponent = user2.name  //name of opponent to player1
 
@@ -28,7 +28,7 @@ export async function updateMatchHistory () {
 
   let user2Opponent = user1.name  //name of opponent to player2
 
-  let spanElement2 = document.getElementById( 'sX' );
+  let spanElement2 = document.getElementById( 'sO' );
   let result2 = spanElement2.textContent; //grab result of player 2
  
   console.log( user2Opponent, result2, rounds );
