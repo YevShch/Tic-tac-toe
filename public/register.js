@@ -31,7 +31,7 @@ registerBtn.addEventListener( "click", function () {
   if ( input.value === "" ) {
     alert ("You need to enter a name!")
   } else {
-    console.log( "post" );
+    alert( "Player " + user.name + " is registered!" );
     addUser( user );
     console.log( user );
     registerUser.value = "";

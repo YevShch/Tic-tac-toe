@@ -214,6 +214,16 @@
           "opponent": "Unika",
           "rounds": "2",
           "result": "lost"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Helena",
+          "rounds": "1",
+          "result": "lost"
         }
       ]
     },
@@ -572,6 +582,16 @@
           "opponent": "Eva",
           "rounds": "1",
           "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Eva",
+          "rounds": "1",
+          "result": "lost"
         }
       ]
     },
