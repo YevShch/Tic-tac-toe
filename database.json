@@ -921,6 +921,16 @@
           "opponent": "Eva",
           "rounds": "4",
           "result": "lost"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "won"
+        },
+        {
+          "opponent": "Olena",
+          "rounds": "1",
+          "result": "lost"
         }
       ]
     },
@@ -999,6 +1009,16 @@
           "opponent": "Peter",
           "rounds": "1",
           "result": "won"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "Dennis",
+          "rounds": "1",
+          "result": "won"
         }
       ]
     },
@@ -1066,6 +1086,11 @@
           "opponent": "Peter",
           "rounds": "1",
           "result": "lost"
+        },
+        {
+          "opponent": "Linus",
+          "rounds": "1",
+          "result": "won"
         }
       ]
     },
@@ -1100,6 +1125,11 @@
         },
         {
           "opponent": "Peter",
+          "rounds": "1",
+          "result": "lost"
+        },
+        {
+          "opponent": "John",
           "rounds": "1",
           "result": "lost"
         }
