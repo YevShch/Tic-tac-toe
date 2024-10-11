@@ -1,4 +1,4 @@
- ## Individual school assignment - Board game ä
+ ## Individual school assignment - Board game 
 
 Build a “3 in a row” game where 2 people can play against each other. 
 You must be able to register as a user and challenge other registered users. 
